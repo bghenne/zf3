@@ -11,6 +11,8 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Zend\Paginator',
+    'Zend\Navigation',
     'Zend\ServiceManager\Di',
     'Zend\Session',
     'Zend\Mvc\Plugin\Prg',
@@ -19,7 +21,7 @@ return [
     'Zend\Mvc\Plugin\FilePrg',
     'Zend\Form',
     'Zend\Db',
-    //'ZendDeveloperTools',
+    'ZendDeveloperTools',
     'Zend\Router',
     'Zend\Validator',
     'Application',
